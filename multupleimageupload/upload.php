@@ -93,5 +93,6 @@ $sql="INSERT INTO multi_image(image) values('$arr')";
 $result=mysqli_query($conn, $sql);
 }
 echo"First 4 images are uploaded and inserted into database";
+echo "It is multi upload";
 }
 ?>
